@@ -7,8 +7,8 @@
 # must be done after each system software update
 
 # free and non-free RPM files
-dnf install -y https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-28.noarch.rpm
-dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-28.noarch.rpm
+sudo dnf install -y https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-28.noarch.rpm
+sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-28.noarch.rpm
 
 # kernel-devel for broadcom adapter
 sudo dnf install -y broadcom-wl kernel-devel
